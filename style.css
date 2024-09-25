@@ -11,6 +11,11 @@ body {
 @media screen and (max-width: 483px) {
   body {
     background-color: rgb(70, 17, 17);
+
+    img {
+      float: none;
+      max-width: 100%;
+    }
   }
 }
 
@@ -19,4 +24,9 @@ body {
     background-color: rgb(255, 251, 0);
     color: rgb(37, 37, 37);
   }
+}
+
+img {
+  float: right;
+  max-width: 600px;
 }
